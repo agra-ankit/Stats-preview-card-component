@@ -39,7 +39,7 @@ body{
 }
 .card{
   background-color: var(--clr-bg-card);
-  max-width:327px;
+  max-width:20.4375rem;
   border-radius: 0.45rem;
   overflow: hidden;
   display: flex;
@@ -100,11 +100,11 @@ body{
   font-weight: var(--fw-regular);
   letter-spacing: 0.07rem;
 }
-@media(min-width:960px){
+@media(min-width:60rem){
 
   .card{
     flex-direction: row-reverse;
-    max-width:960px;
+    max-width:60rem;
 
   }
   .hero-image{
