@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <article class="card">
+        <div class="image-wrapper">
+          <picture>
+            <source
+              media="(min-width: 960px)"
+              srcset="images/image-header-desktop.jpg"
+            />
+            <img
+              class="hero-image"
+              src="images/image-header-mobile.jpg"
+              alt="Team collaborating at a desk"
+            />
+          </picture>
+          
+        </div>
+
+        <div class="content">
+          <div class="card-info">
+            <h1 class="heading">
+              Get <span>insights</span> that help your business grow.
+            </h1>
+
+            <p class="description">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+
+          <section class="card-stats">
+            <div class="item">
+              <p class="stat-number">10k+</p>
+              <p class="stat-label">COMPANIES</p>
+            </div>
+            <div class="item">
+              <p class="stat-number">314</p>
+              <p class="stat-label">TEMPLATES</p>
+            </div>
+            <div class="item">
+              <p class="stat-number">12M+</p>
+              <p class="stat-label">QUERIES</p>
+            </div>
+          </section>
+        </div>
+      </article>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a target="_blank" href="https://www.linkedin.com/in/ankit-agrawal-45830338b">Ankit Agrawal</a>.
+    </footer>
+  </body>
+</html>
